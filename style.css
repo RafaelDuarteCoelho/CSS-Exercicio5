@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 97vh;
+	margin: 0 auto;
+    flex-direction: column;
+}
+
+.fileira {
+    display: flex;
+    height: 100vh;
+	margin: 4px;
+	text-align: center;
+	font-size: 25px;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+}
+
+.item_divididos {
+    flex-grow: 1;
+    margin: 2px;
+    height: 100%;
+    background: khaki;
+    text-align: center;
+}
+
+.item {
+    width: 15%;
+    height: 200px;
+    border: 5px solid crimson;
+    box-shadow: -0.5rem 0.5rem crimson;
+    margin: 15px;
+}
+
+#big {
+    flex-grow: 1;
+}
+
+#invertida {
+    flex-direction: row-reverse;
+}
+
+
+
